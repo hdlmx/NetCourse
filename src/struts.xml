@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+
+    <package name="default" namespace="/" extends="struts-default">
+        <!-- <default-action-ref name="index" /> <global-results> <result name="error">/WEB-INF/jsp/error.jsp</result>
+            </global-results> <global-exception-mappings> <exception-mapping exception="java.lang.Exception"
+            result="error"/> </global-exception-mappings> <action name="index"> <result
+            type="redirectAction"> <param name="actionName">HelloWorld</param> <param
+            name="namespace">/example</param> </result> </action> -->
+        <!-- <action name="test" class="cn.school.NetCourse.Action.MajorAction" method="list">
+            <result name="success">/test.jsp</result> </action> -->
+        <action name="major" class="cn.school.NetCourse.Action.MajorAction"
+                method="list">
+            <result name="success">/major.jsp</result>
+        </action>
+        <action name="course" class="cn.school.NetCourse.Action.CourseAction"
+                method="major">
+            <result name="success">/course.jsp</result>
+        </action>
+        <!-- <action name="login" class="cn.school.NetCourse.Action.LoginAction">
+            <result name="success"></result> <result name="faile"></result> </action> -->
+        <action name="play" class="cn.school.NetCourse.Action.PlayAction"
+                method="play">
+            <result name="success">/play.jsp</result>
+        </action>
+        <action name="teacher" class="cn.school.NetCourse.Action.TeacherAction"
+                method="teacher">
+            <result name="success">/teacher.jsp</result>
+        </action>
+        <action name="login" class="cn.school.NetCourse.Action.UserAction"
+                method="login">
+            <result name="success" type="redirect">/index.jsp</result>
+            <result name="fail">/fail.jsp</result>
+        </action>
+        <action name="exit" class="cn.school.NetCourse.Action.UserAction"
+                method="exit">
+            <result name="success" type="redirect">/index.jsp</result>
+        </action>
+        <!-- <action name="myCourse" class="cn.school.NetCourse.Action.CourseAction"
+            method="myCourse"> <result name="success">/myClass.jsp</result> </action> -->
+        <action name="reg" class="cn.school.NetCourse.Action.UserAction"
+                method="reg">
+            <result name="success">/success.html</result>
+            <result name="fail">/success.html</result>
+        </action>
+        <action name="search" class="cn.school.NetCourse.Action.CourseAction"
+                method="searchCourse">
+            <result name="success">/searchResult.jsp</result>
+            <result name="fail">/NullResult.jsp</result>
+
+        </action>
+        <action name="addQuestion" class="cn.school.NetCourse.Action.QuestionAction"
+                method="addQuestion">
+            <result name="success">/success.jsp</result>
+        </action>
+        <action name="modify" class="cn.school.NetCourse.Action.UserAction"
+                method="modify">
+            <result name="success">/index.jsp</result>
+            <result name="fail">/modifyFail.jsp</result>
+        </action>
+
+        <action name="myCourse" class="cn.school.NetCourse.Action.UserAction"
+                method="myCourse">
+            <result name="success">/myClass.jsp</result>
+        </action>
+        <action name="dynamic" class="cn.school.NetCourse.Action.UserAction"
+                method="dynamic">
+            <result name="success">/myClass.jsp</result>
+        </action>
+        <action name="setting" class="cn.school.NetCourse.Action.UserAction"
+                method="setting">
+            <result name="success">/myClass.jsp</result>
+        </action>
+
+        <action name="addCourse" class="cn.school.NetCourse.Action.UserAction"
+                method="addCourse">
+            <result name="fail">fail.jsp</result>
+            <result name="success">/myClass.jsp</result>
+        </action>
+        <action name="teacherLogin" class="cn.school.NetCourse.Action.TeacherAction"
+                method="teacherLogin">
+            <result name="success" type="redirectAction">teacherCourse</result>
+            <result name="fail">fail.jsp</result>
+        </action>
+        <action name="teacherCourse" class="cn.school.NetCourse.Action.TeacherAction"
+                method="teacherCourse">
+            <result name="success">/teacherCenter.jsp</result>
+        </action>
+        <action name="courseDetil" class="cn.school.NetCourse.Action.TeacherAction"
+                method="courseDetail">
+            <result name="success">/teacherCourseDetail.jsp</result>
+            <result name="fail">fail.jsp</result>
+        </action>
+        <action name="modifyCourse" class="cn.school.NetCourse.Action.TeacherAction"
+                method="modifyCourse">
+            <result name="success">/modifyCourse.jsp</result>
+            <result name="fail">/fail.jsp</result>
+        </action>
+        <action name="saveCourse" class="cn.school.NetCourse.Action.TeacherAction"
+                method="saveCourse">
+            <result name="success">/teacherCourseDetail.jsp</result>
+            <result name="fail">/fail.jsp</result>
+        </action>
+
+    </package>
+
+    <!--<include file="example.xml" />-->
+</struts>

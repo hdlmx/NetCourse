@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="NetCourse:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/NetCourse_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="NetCourse/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="NetCourse" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="struts-2.5.10" />
+          <element id="library" level="project" name="Hibernate 5.2.9-5.2.9" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

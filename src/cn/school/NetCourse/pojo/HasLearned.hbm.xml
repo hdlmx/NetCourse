@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.school.NetCourse.pojo">
+
+	<class name="HasLearned" table="tb_haslearned">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		<many-to-one name="student" column="studentname"></many-to-one>
+		<many-to-one name="course" column="courseid"></many-to-one>
+	</class>
+
+
+
+
+</hibernate-mapping>
+

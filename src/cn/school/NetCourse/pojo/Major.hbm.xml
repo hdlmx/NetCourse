@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.school.NetCourse.pojo">
+
+	<class name="Major" table="tb_major">
+		<id name="majorId" column="majorid">
+			<!-- <generator class="native"></generator> -->
+		</id>
+		<property name="majorName" column="majorname"></property>
+		<many-to-one name="institute" class="Institute" column="instituteid"
+			></many-to-one>
+
+	</class>
+
+
+
+</hibernate-mapping>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="cn.school.NetCourse.pojo">
+
+	<class name="Video" table="tb_video">
+		<id name="videoId" column="videoid">
+<!-- 			<generator class="native"></generator>
+ -->
+		</id>
+		<property name="videoName" column="videoName"></property>
+		<property name="path" column="path"></property>
+		<many-to-one name="course" column="course" cascade="all"></many-to-one>
+
+	</class>
+
+</hibernate-mapping>
+

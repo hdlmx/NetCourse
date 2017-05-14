@@ -1,0 +1,375 @@
+body {
+	margin: 0px;
+	background-color: #f5f5f5;
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
+.fontstyle {
+	color: white;
+	font-size: larger;
+	font-weight: 800;
+}
+
+.head {
+	width: 100%;
+	height: 64px;
+	background: white;
+	position: fixed;
+	background-color: #0664c3;
+	position: left center;
+	z-index: 1;
+}
+
+.choosed {
+	color: #0664c3;
+}
+
+.cslg-logo {
+	width: 300px;
+	height: 36px;
+	float: left;
+	margin-left: 95px;
+	margin-top: 15px;
+	;
+}
+
+.welcome {
+	font-family: "微软雅黑";
+	font-size: 24px;
+}
+
+.sub {
+	font-size: 13px;
+	font-family: "微软雅黑";
+	margin-top: -15px;
+}
+/*.clsg-name{
+    float: left;
+    width: 200px;
+    height: 35px;
+    margin-top:20px;
+    /* background: gold;
+}*/
+.cslg-institute {
+	float: left;
+	width: 105px;
+	text-align: center;
+	height: 64px;
+	margin-left: 15px;
+	background: #0664c3;
+	/*background: gold;*/
+}
+
+.cslg-institute a {
+	float: left;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+
+.cslg-institute:hover {
+	/*border: solid saddlebrown;*/
+	background-color: #0e79e9;
+}
+
+.course-search {
+	float: left;
+	width: 366px;
+	height: 33px;
+	margin-top: 15px;
+	margin-left: 15px;
+	/*background-color: brown;*/
+}
+
+.search-logo {
+	float: left;
+	width: 50px;
+	height: 33px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background: #0e79e9;
+}
+
+.search-background {
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin-top: 9px;
+	margin-left: 11px;
+	background: url("img/search-logo.png");
+}
+
+.search-li {
+	float: right;
+	width: 1px;
+	height: 20px;
+	margin-top: 7px;
+	margin-right: 10px;
+	background: white;
+}
+
+.search-form input {
+	float: left;
+	width: 300px;
+	height: 33px;
+	margin-top: 0px;
+	background: #0e79e9;
+	border: none;
+	color: white;
+	outline: medium;
+}
+
+.register-login {
+	float: right;
+	width: 230px;
+	height: 33px;
+	margin-top: 22px;
+	/* background: gold;*/
+}
+
+.register-login ul {
+	float: left;
+	margin-top: 0px;
+	padding: 0 5px;
+}
+
+.register-login li {
+	color: white;
+	float: left;
+	padding: 0 5px;
+	list-style-type: none;
+}
+
+.mainpage {
+	float: left;
+	width: 840px;
+	height: 360px;
+	margin-left: 40px;
+	margin-top: 92px;
+	background: greenyellow;
+}
+
+.register-login a:link {
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+	width: 29%;
+	height: 600px;
+	background: #f5f5f5;
+	/*border-right: solid 1px;
+    border-color: #e2e2e2;
+    background-color: aqua;*/
+}
+
+.top-space {
+	float: left;
+	width: 355px;
+	height: 84px;
+	/*background: hotpink;*/
+}
+
+.title-link {
+	float: right;
+	margin-right: 30px;
+	width: 258px;
+	height: 35px;
+	font-weight: 600;
+	/*background: cornflowerblue;*/
+}
+
+.divlist {
+	float: right;
+	margin-right: 30px;
+	width: 258px;
+	height: 255px;
+	border: solid 1px;
+	border-color: #e2e2e2;
+	/*line-height: 0px;
+    /* background: darkcyan;*/
+}
+
+.headPage:hover {
+	color: #0e79e9;
+}
+
+.centend {
+	width: 258px;
+	height: 63px;
+	border-bottom: solid 1px #e2e2e2;
+	position: relative;
+	/*line-height: 0px;*/
+	font-weight: 800;
+}
+
+.centend p {
+	padding: 0px;
+	margin-left: 30px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	color: #81918e;
+	font-family: "Microsoft Yi Baiti";
+}
+
+.centend a {
+	/*background-color: hotpink;*/
+	display: none;
+	width: 100%;
+	height: 80%;
+	margin-top: 5px;
+	position: absolute;
+}
+
+.centend div {
+	float: left;
+}
+
+.centend:hover a {
+	display: block;
+	/*background-color: aqua;*/
+}
+
+.center {
+	float: left;
+	width: 68.5%;
+	height: 600px;
+	background: #f5f5f5;
+	/*background-color: red;
+    overflow:scroll;*/
+}
+
+.form-area {
+	float: left;
+	width: 70.9%;
+}
+
+.backgroungTitle {
+	float: left;
+	width: 797px;
+	height: 40px;
+	/* background-color: burlywood;*/
+}
+
+.backLeft {
+	float: left;
+	width: 10px;
+	height: 38px;
+	/*background-color: aqua;*/
+	background: url("img//left.png");
+	margin-left: -3px;
+	margin-top: 2px;
+}
+
+.backCenter {
+	float: left;
+	width: 783px;
+	height: 38px;
+	margin-left: -3px;
+	margin-top: 2px;
+	background: url("img//center.png") repeat-x;
+}
+
+.backRight {
+	float: right;
+	width: 10px;
+	height: 38px;
+	margin-left: -3px;
+	margin-top: 1.5px;
+	background: url("img//right.png");
+}
+
+.title-feedback {
+	width: 100%;
+	height: 160px;
+	/*background-color: brown;*/
+}
+
+.title-feedback-space {
+	float: left;
+	width: 100%;
+	height: 64px;
+}
+
+.form-area {
+	/*background-color: aquamarine;*/
+	
+}
+
+textarea {
+	border-radius: 0px;
+	border-left: solid 1px #e2e2e2;
+	border-bottom: solid 1px #e2e2e2;
+	border-right: solid 1px #e2e2e2;
+	border-top: solid 0px #e2e2e2;
+	width: 789px;
+	height: 250px;
+	margin-top: -1px;
+	outline: medium;
+	resize: none;
+}
+
+.submit {
+	float: left;
+	width: 100%;
+	height: 60px;
+	/* background-color: brown;*/
+	margin-top: 40px;
+	margin-left: 300px;
+	border: 0 none;
+	padding: 0px;
+}
+
+.submit input {
+	background: #0876c2;
+	width: 100px;
+	height: 50px;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+}
+
+.copyright {
+	float: left;
+	width: 100%;
+	height: 60px;
+	/*background-color: red;*/
+	background: red;
+}
+
+.leftspace {
+	float: left;
+	width: 30%;
+	height: 80px;
+	background: #e9e9e9;
+}
+
+.bottom {
+	float: left;
+	text-align: center;
+	color: #9999ad;
+	float: left;
+	width: 40%;
+	height: 80px;
+	background: #e9e9e9;
+}
+
+.rightspace {
+	float: left;
+	width: 30%;
+	height: 80px;
+	background: #e9e9e9;
+	/* background: rebeccapurple;*/
+}
+
+.copyright-space {
+	width: 100%;
+	height: 22px;
+	/*background-color: aqua;*/
+}

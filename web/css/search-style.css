@@ -1,0 +1,209 @@
+.space {
+	float: left;
+	width: 100%;
+	height: 64px;
+	background-color: #f1d15f;
+	/*margin-top: 10px;*/
+}
+
+.courseSpace {
+	float: left;
+	width: 100%;
+	height: 40px;
+	/*background-color: #f1d15f;*/
+	margin-top: 10px;
+}
+
+.courselist {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #f1f1f1;
+}
+
+.courseList_body {
+	width: 1140px;
+	height: auto;
+	/*background-color: chartreuse;*/
+	margin: 0 auto;
+}
+
+.searchTitle {
+	width: 100%;
+	height: 100px;
+	/*background-color: firebrick;*/
+	margin-top: 50px;
+}
+
+.result_title {
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+.course {
+	float: left;
+	width: 260px;
+	height: 170px;
+	margin: 20px 10px;
+}
+
+.course a {
+	display: block;
+	width: 260px;
+	height: auto;
+	background-color: #ffffff;
+}
+
+.course a:hover {
+	border: 1px solid #005a9e;
+}
+
+.course a:hover .courseName {
+	color: #005a9e;
+}
+
+.a_space {
+	width: 100%;
+	height: 10px;
+	/*background-color: chartreuse;*/
+}
+
+.courseName {
+	width: 90%;
+	height: 20px;
+	/*background-color: aqua;*/
+	margin-left: 10px;
+	color: #000000;
+	font-size: 13px;
+	font-family: 微软雅黑;
+}
+
+.page {
+	width: 100%;
+	height: 64px;
+	float: left;
+	background-color: #f1f1f1;
+}
+
+.pageBody {
+	width: 1140px;
+	height: 50px;
+	/*background-color: cyan;*/
+	margin: 0 auto;
+}
+
+.selectedPage {
+	background-color: #005a9e;
+	color: #ffffff;
+}
+
+.pageIndex li {
+	float: left;
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: #e9e9e9;
+	margin-left: 14px;
+	border-radius: 2px;
+}
+
+.pageIndex li:hover {
+	background-color: #005a9e;
+	color: #ffffff;
+}
+
+.pageIndex li:hover a {
+	color: #ffffff;
+}
+
+.pageNum {
+	width: 14px;
+	height: 14px;
+	/*background-color: aqua;*/
+	margin: 0 auto;
+	margin-top: 6px;
+}
+
+.pageIndex a {
+	float: left;
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	color: #666666;
+}
+
+#selectedPage {
+	float: left;
+	display: block;
+	width: 30px;
+	height: 30px;
+	/*background-color: #f1eff0;*/
+	margin-left: 14px;
+	border-radius: 1.5px;
+	background-color: #005a9e;
+	color: #ffffff;
+}
+
+#selectedPage a {
+	color: #ffffff;
+}
+
+.pageIndex input {
+	/*float: left;*/
+	width: 30px;
+	height: 30px;
+	background-color: crimson;
+	text-align: center;
+	border-radius: 1px;
+}
+
+.pageIndex {
+	width: 400px;
+	height: 50px;
+	/*background-color: cornflowerblue;*/
+	margin: 0 auto;
+}
+
+.pageTotal {
+	float: left;
+	width: 100x;
+	height: 30px;
+	/*background-color: chartreuse;*/
+	margin-left: 10px;
+	color: #005a9e;
+	font-family: 微软雅黑;
+	margin-top: 5px;
+}
+
+.pageForm {
+	float: left;
+	width: 100px;
+	height: 30px;
+	/*background-color: darkgreen;*/
+	margin-left: 10px;
+	margin-top: 0px;
+	color: #005a9e;
+	font-family: 微软雅黑;
+}
+
+.pageForm input {
+	margin: 0 10px;
+	background-color: #f1eff0;
+	border: 1px solid #b3c3c0;
+}
+
+.pageIndex font {
+	margin-top: 3px;
+}
+
+#tiaozhuan_submit {
+	float: left;
+	width: 45px;
+	height: 30px;
+	background-color: #005a9e;
+	border-radius: 3px;
+	color: #ffffff;
+	font-family: 微软雅黑;
+	margin-top: 0px;
+}

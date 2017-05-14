@@ -1,0 +1,123 @@
+.student_setting {
+	/*float: left;*/
+	width: 1140px;
+	height: auto;
+	background-color: #ffffff;
+	margin: 20px auto;
+}
+
+.setting_title {
+	width: 100%;
+	height: 66px;
+	/*     background-color: #c1ff51;
+ */
+}
+
+.setting_space {
+	float: left;
+	width: 100%;
+	height: 20px;
+	/*     background-color: chocolate;
+ */
+}
+
+.student_info {
+	/*float: left;*/
+	width: 110px;
+	height: 30px;
+	/*     background-color: brown;
+ */
+	margin: 0 500px;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	color: #777777;
+	font-weight: 800;
+	/*border-bottom: solid 1px #f1f1f1;*/
+}
+
+.setting_leBorder {
+	float: left;
+	width: 100%;
+	height: 30px;
+	/* background-color: #b8f1c0;
+ */
+}
+
+.setting_Border_body {
+	width: 1000px;
+	height: 1px;
+	background-color: #ececec;
+	margin: 0 auto;
+}
+
+.settingBody {
+	width: 840px;
+	height: 500px;
+	background-color: #ffffff;
+	margin: 0 auto;
+}
+
+.settingLable {
+	float: left;
+	width: 305px;
+	height: 400px;
+	/*     background-color: crimson;
+ */
+}
+
+.settingLable li {
+	display: block;
+	float: right;
+	width: 100%;
+	height: 30px;
+	/*background-color: forestgreen;*/
+	text-align: right;
+	margin: 20px 0;
+	font-weight: 600;
+	font-family: 寰蒋闆呴粦;
+}
+
+.settingForm {
+	float: left;
+	width: 405px;
+	height: 400px;
+	/*background-color: aqua;*/
+	margin-left: 30px;
+}
+
+.settingForm li {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 30px;
+	/*background-color: forestgreen;*/
+	margin: 20px 0;
+	/*text-align: right;*/
+}
+
+.settingForm input {
+	width: 245px;
+	height: 30px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+}
+
+.settingSubmit {
+	float: left;
+	width: 100%;
+	height: 30px;
+	/*background-color: #f2ff57;*/
+	margin-top: 50px;
+}
+
+.settingSubmit input {
+	width: 145px;
+	height: 33px;
+	background-color: #005a9e;
+	border-radius: 3px;
+	border: none;
+	margin: 0 350px;
+	color: #ffffff;
+	font-size: 12px;
+}

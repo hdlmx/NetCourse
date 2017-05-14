@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
+	/*background-color: #ffffff;*/
+}
+
+a {
+	color: #0088cc;
+	text-decoration: none;
+}
+
+a:hover {
+	/*  color: #005580;
+      text-decoration: underline;*/
+	
+}
+
+.container, .navbar-fixed-top .container, .navbar-fixed-bottom .container
+	{
+	width: 840px;
+}
+
+.container {
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	*zoom: 1;
+}
+
+h1, h2 {
+	margin: 0;
+	font-family: inherit;
+	font-weight: lighter;
+	color: inherit;
+	text-rendering: optimizelegibility;
+}
+
+h1 small, h2 small {
+	font-weight: normal;
+	color: #999999;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+h1 small {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 36px;
+}
+
+h2 small {
+	font-size: 18px;
+}
